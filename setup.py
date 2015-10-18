@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='icwsm',
     version='',
-    packages=['program', 'parsers', 'files'],
+    packages=['parsers', 'files'],
     url='',
     license='',
     author='',

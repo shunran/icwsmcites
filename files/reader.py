@@ -1,7 +1,6 @@
 import re
 import urllib
 
-
 class Reader:
     def __init__(self, infilename):
         self.infile = open(infilename, 'r', encoding='utf-8')

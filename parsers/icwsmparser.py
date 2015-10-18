@@ -1,5 +1,7 @@
 from html.parser import HTMLParser
+
 import requests
+
 from files.writer import Writer
 
 
