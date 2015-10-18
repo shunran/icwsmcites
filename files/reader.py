@@ -14,8 +14,8 @@ class Reader:
         words = row.split(";")[0].strip()
         match = re.match("^\d+:\s?(.*)$", words)
         if not match:
-            print("NO MATCH: %s" % words)
-            return None
+            print("NO program identifier number: %s" % words)
+            return words.rstrip('\n')
         else:
             return match.group(1)
 
